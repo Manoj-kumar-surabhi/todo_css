@@ -1,0 +1,60 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+    
+    
+}
+.div1{
+    position: relative;
+    top: 70px;
+    left: 20%;
+    font-size: 65px;  
+}
+#icon{
+    margin-left:330px;
+}
+.div2{
+    display: flex;
+    position: relative;
+    top: 30px;
+    font-size: 32px;
+    margin-top: 22px;
+    left: 20%;  
+}
+#box1{
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    height: 330px;
+    width: 245px;
+    padding-top: 30px;
+    box-shadow: 10px 10px grey;
+}
+#box2{
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    height: 330px;
+    width: 245px;
+    padding-top: 30px;
+    margin-left: 40px;
+    box-shadow: 10px 10px grey;
+}
+
+
+#box3{
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    height: 330px;
+    width: 245px;
+    padding-top: 30px;
+    margin-left: 40px;
+    box-shadow: 10px 10px grey;
+}
+#nexticon{
+    position: relative;
+    top: -230px;
+    left: 90%;
+}

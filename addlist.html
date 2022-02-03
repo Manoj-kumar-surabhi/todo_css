@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addlist</title>
+    <style>
+        body, html{
+            height: 100%;
+
+        }
+        #bgimg{
+            background-image: url(./Screenshot\ \(125\).png);
+            background-position: center;
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #addlist{
+            position: absolute;
+            top: 260px;
+            left: 37%;
+            border: 2px solid black;
+            background-color: white;
+            
+            width: 28%;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+        #button{
+            background-color: violet;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="bgimg"></div>
+  
+    <div id="addlist">
+        <form>
+            <h1>ADD A NEW LIST</h1>
+            <input type="text"><br><br>
+            <button id="button">Add</button>
+        </form>
+    </div>
+   
+</body>
+</html>
