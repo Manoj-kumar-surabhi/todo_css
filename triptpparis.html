@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip to paris</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <style>
+        
+        .div1{
+            text-align: center;
+        }
+       
+        h1::before,
+       h1::after {
+            display: inline-block;
+             content: "";
+               border-top: .1rem solid black;
+                  width: 10rem;
+                       margin: 0 1rem;
+                          transform: translateY(-0.5rem);
+                               text-align: center;
+                   }
+                   #box1{
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    height: 330px;
+    width: 245px;
+    padding-top: 30px;
+    box-shadow: 10px 10px grey;
+    font-size: 30px;
+}
+.div2{
+    position: absolute;
+    top: 180px;
+    left: 42%;
+}
+.addlist{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 15px 15px 0;
+}
+    </style>
+
+</head>
+<body>
+    <div class="div1">
+        
+        <h1 >TRIP TO PARIS</h1>
+        
+        <H2><a href="./index.html"><span class="material-icons" style="color: white;background-color: red;border-radius: 25%;">
+            arrow_back
+            </span></a> Back</H2>
+
+    </div>
+   <div class="div2">
+    <form id="box1">
+        <font style="color: red;">Trip to paris</font>
+        <hr>
+        
+        <p style="text-decoration: line-through; color: red;">Completed task</p>
+        <input type="checkbox"> pending task
+        <div class="addlist"><a href="addlist.html"><span class="material-icons" style="color: red; font-size: 45px;">add_circle</span></a> </div>
+        </form>
+   </div>
+</body>
+</html>
